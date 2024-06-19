@@ -1,0 +1,51 @@
+{
+    "files.associations": {
+        "__tree": "cpp",
+        "bitset": "cpp",
+        "set": "cpp",
+        "format": "cpp",
+        "iostream": "cpp",
+        "vector": "cpp",
+        "iosfwd": "cpp",
+        "ostream": "cpp",
+        "regex": "cpp",
+        "chrono": "cpp",
+        "__hash_table": "cpp",
+        "__split_buffer": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "initializer_list": "cpp",
+        "list": "cpp",
+        "map": "cpp",
+        "queue": "cpp",
+        "span": "cpp",
+        "stack": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "valarray": "cpp",
+        "ranges": "cpp",
+        "stacktrace": "cpp",
+        "cmath": "cpp",
+        "tuple": "cpp",
+        "complex": "cpp",
+        "random": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled",
+    // skipped
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.cStandard": "c17",
+    "code-runner.executorMap": {
+        // skipped
+        "cpp": "cd $dir && g++ -std=c++17 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        // skipped
+    },
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/**",
+        "/opt/homebrew/include/**",
+        "/usr/local/include/**",
+    ],
+    "editor.minimap.enabled": false,
+    "cmake.configureOnOpen": false,
+}
