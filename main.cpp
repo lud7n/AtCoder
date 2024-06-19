@@ -90,6 +90,7 @@ constexpr int MOD = 998244353;
 
 int main()
 {
-
+    ll n;
+    in(n);
     return 0;
 }
