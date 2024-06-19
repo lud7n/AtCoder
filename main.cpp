@@ -90,41 +90,6 @@ constexpr int MOD = 998244353;
 
 int main()
 {
-    ll n, k;
-    cin >> n >> k;
-    vl s(n);
-    rep(i, n) cin >> s[i];
-
-    rep(i, n)
-    {
-        if (s[i] == 0)
-        {
-            out(n);
-            return 0;
-        }
-    }
-
-    // 尺取り法（abc038D 解答コード）
-    ll cr = 0, mul = 1, ans = 0;
-    // cntはkまでの添字（何個までいけるか）
-
-    rep(i, n)
-    {
-        while (cr < n and mul * s[cr] <= k)
-        {
-            mul *= s[cr];
-            cr++;
-        }
-
-        ans = max(ans, cr - i);
-
-        if (cr == i)
-            cr++; // 重なったらcrも動かす
-        else
-            mul /= s[i];
-    }
-
-    cout << ans << endl;
 
     return 0;
 }
